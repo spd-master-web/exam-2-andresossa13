@@ -49,28 +49,60 @@ a {
 
 /* SECTIONS */
 
+/* SECTION 1 */
+
 .thirst {
-  width: 100vw;
-  height: 100vh;
-  background-color: black;
-  padding-left: 150px;
+  background-color: rgb(63, 63, 63);
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
   color: white;
+  font-size: 50px;
+  margin: 0;
 }
 
 p {
   color: white;
 }
 
-.info1 {
-  width: 500px;
+.thirst_info {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   
 }
 
-.glacier {
-  float: right;
+.check-me {
+  background-color: rgb(255, 115, 0);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
+
+/* SECTION 2  */
+
+.quencher-types {
+  display: flex;
+  justify-content: center;
+}
+
+.types {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 
 
