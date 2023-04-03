@@ -53,7 +53,7 @@ a {
 /* SECTION 1 */
 
 .thirst {
-  background-color: rgb(63, 63, 63);
+  background-color: rgb(32, 32, 32);
   display: flex;
   justify-content: center;
 }
@@ -103,6 +103,7 @@ h1 {
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
+  padding-left: 40px;
 }
 
 h2 {
@@ -132,5 +133,33 @@ button {
   padding-right: 50px;
 }
 
+/* FOOTER  */
+
+footer {
+  background-image: url(images/orange-liquid.png);
+  width: 100%;
+  height: auto;
+  padding-top: 220px;
+  padding-bottom: 120px;
+  margin-top: 100px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
 
 
+.liquid-orange {
+  width: 100%;
+  height: auto;
+ 
+}
+
+
+
+.logo-bar-footer {
+  display: flex;
+  justify-content: center;
+}
