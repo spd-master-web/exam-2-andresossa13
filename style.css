@@ -163,3 +163,118 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+.logo-bar-footer-mobile {
+  visibility: hidden;
+}
+
+/* MOBILE  */
+
+@media (max-width:960px) {
+  
+  .logo-bar {
+    background-image: url(images/logo_mobile.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  }
+
+  .logo-bar img {
+    padding-right: 900px;
+    width: 60vw; 
+  }
+
+  nav {
+    background-color: rgb(210, 210, 210);
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    color: white;
+    line-height: 2;
+    
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .item1 {
+    padding-left: 0
+  }
+  
+  
+  .item3 {
+    padding-right: 0
+  }
+
+  .thirst {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    
+  
+  }
+
+  .thirst_info {
+   order: 1;
+   align-self: flex-start; 
+  }
+
+  .types {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .quencher-types {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer {
+    background-image: url(images/orange-liquid.png);
+    width: 100%;
+    height: auto;
+    padding-top: 220px;
+    padding-bottom: 120px;
+    margin-top: 100px;
+  }
+  
+  .copyright {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+  
+  .liquid-orange {
+    width: 100%;
+    height: auto;
+   
+  }
+  
+  
+  
+  .logo-bar-footer {
+    visibility: hidden;
+    padding-left: 400px;
+    width: 60vw; 
+  }
+
+  .logo-bar-footer-mobile {
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    visibility: visible;
+  }
+}
