@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:sans-serif;
+}
+
+
+/* NAVIGATION & LOGO  */
+
+.logo-bar {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-bar img {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+nav {
+  background-color: rgb(210, 210, 210);
+  display: flex;
+  justify-content:space-between;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+  
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.item1 {
+  padding-left: 100px;
+}
+
+
+.item3 {
+  padding-right: 100px;
+}
+
+/* SECTIONS */
+
+/* SECTION 1 */
+
+.thirst {
+  background-color: rgb(32, 32, 32);
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  margin: 0;
+}
+
+.thirst_text {
+  color: white;
+}
+
+.thirst_info {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+
+.check-me {
+  background-color: rgb(255, 115, 0);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* SECTION 2  */
+
+.quencher-types {
+  display: flex;
+  justify-content: center;
+}
+
+.types {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 40px;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  color: black;
+}
+
+.types_images {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: rgb(255, 115, 0);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* FOOTER  */
+
+footer {
+  background-image: url(images/orange-liquid.png);
+  width: 100%;
+  height: auto;
+  padding-top: 220px;
+  padding-bottom: 120px;
+  margin-top: 100px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+
+.liquid-orange {
+  width: 100%;
+  height: auto;
+ 
+}
+
+
+
+.logo-bar-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-bar-footer-mobile {
+  visibility: hidden;
+}
+
+/* MOBILE  */
+
+@media (max-width:960px) {
+  
+  .logo-bar {
+    background-image: url(images/logo_mobile.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  }
+
+  .logo-bar img {
+    padding-right: 900px;
+    width: 60vw; 
+  }
+
+  nav {
+    background-color: rgb(210, 210, 210);
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    color: white;
+    line-height: 2;
+    
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .item1 {
+    padding-left: 0
+  }
+  
+  
+  .item3 {
+    padding-right: 0
+  }
+
+  .thirst {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    
+  
+  }
+
+  .thirst_info {
+   order: 1;
+   align-self: flex-start; 
+  }
+
+  .types {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .quencher-types {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer {
+    background-image: url(images/orange-liquid.png);
+    width: 100%;
+    height: auto;
+    padding-top: 220px;
+    padding-bottom: 120px;
+    margin-top: 100px;
+  }
+  
+  .copyright {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+  
+  .liquid-orange {
+    width: 100%;
+    height: auto;
+   
+  }
+  
+  
+  
+  .logo-bar-footer {
+    visibility: hidden;
+    padding-left: 400px;
+    width: 60vw; 
+  }
+
+  .logo-bar-footer-mobile {
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    visibility: visible;
+  }
+}
